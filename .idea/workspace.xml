@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="726d63c1-9e90-42ae-91da-c7e831b47f5c" name="Changes" comment="Complete game with 3 datasets.">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="726d63c1-9e90-42ae-91da-c7e831b47f5c" name="Changes" comment="add gunicorn to requirements.txt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677510964911</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add requirements.txt">
+      <created>1677511683263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677511683263</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add gunicorn to requirements.txt">
+      <created>1677511716756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677511716756</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -116,6 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Complete game with 3 datasets." />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete game with 3 datasets." />
+    <MESSAGE value="add requirements.txt" />
+    <MESSAGE value="add gunicorn to requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gunicorn to requirements.txt" />
   </component>
 </project>
