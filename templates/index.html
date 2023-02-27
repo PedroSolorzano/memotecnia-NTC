@@ -1,0 +1,22 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+{% endblock %}
+
+{% block title %}Memotecnia NTC{% endblock %}
+
+{% block content %}
+
+  <div class="container">
+    <h1 class="heading">Memotecnia NTC</h1>
+    <p class="description">Elija el set de Términos Relativos que desea aprender:</p>
+    <div class="button-container">
+      <a class="btn btn-primary" href="{{ url_for('sistema') }}">Términos Relativos al Sistema</a>
+      <a class="btn btn-primary" href="{{ url_for('requisitos') }}">Términos Relativos a los Requisitos</a>
+      <a class="btn btn-primary" href="{{ url_for('auditoria') }}">Términos Relativos a la Auditoría</a>
+    </div>
+  </div>
+
+{% endblock %}

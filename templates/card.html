@@ -1,0 +1,33 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/card-style.css') }}">
+{% endblock %}
+
+{% block title %}Memotecnia NTC{% endblock %}
+
+{% block content %}
+
+  <div class="card-container">
+    <div class="card">
+      <div class="front">
+        <!-- Front content goes here -->
+        <h1>{{ card_info['Término'][index] }}</h1>
+      </div>
+      <div class="back">
+        <!-- Back content goes here -->
+        <h3>{{ card_info['Definición'][index] }}</h3>
+        <div class="inline-buttons">
+          <a class="btn btn-success success" onclick="location.href='{{ route }}?guess=correct&index={{ index }}&method=POST'" href="#">Acerté! 😄</a>
+          <a class="btn btn-danger fail" onclick="location.href='{{ route }}?guess=incorrect&index={{ index }}&method=POST'" href="#">Fallé 😔</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="{{ url_for('static', filename='js/card-js.js') }}"></script>
+
+{% endblock %}

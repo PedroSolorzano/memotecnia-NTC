@@ -1,0 +1,14 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% endblock %}
+
+{% block title %}Memotecnia NTC{% endblock %}
+
+{% block content %}
+
+ {% include 'card.html' %}
+
+{% endblock %}

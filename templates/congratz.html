@@ -1,0 +1,20 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+{% endblock %}
+
+{% block title %}Felicitaciones!{% endblock %}
+
+{% block content %}
+
+  <div class="container">
+    <h1 class="heading">Felicitaciones!</h1>
+    <p class="description">Acabas de aprender todos los términos de esta sección.</p>
+    <div class="home-button-container">
+      <a class="btn btn-primary home-btn" href="{{ url_for('home') }}">Volver a la Página Principal</a>
+    </div>
+  </div>
+
+{% endblock %}
