@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="726d63c1-9e90-42ae-91da-c7e831b47f5c" name="Changes" comment="add openpyxl to requirements.txt">
+    <list default="true" id="726d63c1-9e90-42ae-91da-c7e831b47f5c" name="Changes" comment="change card flip to 3 seconds">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/card-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/card-js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/card-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/card-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auditoria.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auditoria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/congratz.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/congratz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/requisitos.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/requisitos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sistema.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sistema.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677513614818</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change card flip to 3 seconds">
+      <created>1677514273214</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677514273214</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -148,6 +161,7 @@
     <MESSAGE value="add gunicorn to requirements.txt" />
     <MESSAGE value="remove specific versions of requirements.txt" />
     <MESSAGE value="add openpyxl to requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="add openpyxl to requirements.txt" />
+    <MESSAGE value="change card flip to 3 seconds" />
+    <option name="LAST_COMMIT_MESSAGE" value="change card flip to 3 seconds" />
   </component>
 </project>

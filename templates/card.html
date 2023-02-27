@@ -1,5 +1,10 @@
 {% extends 'bootstrap/base.html' %}
 
+{% block head %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+  <meta name="apple-mobile-app-capable" content="yes">
+{% endblock %}
+
 {% block styles %}
   {{ super() }}
   <link rel="stylesheet" href="{{ url_for('static', filename='css/card-style.css') }}">
