@@ -2,3 +2,4 @@ Flask
 Flask_Bootstrap
 pandas
 gunicorn
+openpyxl
