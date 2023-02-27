@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="726d63c1-9e90-42ae-91da-c7e831b47f5c" name="Changes" comment="remove specific versions of requirements.txt">
+    <list default="true" id="726d63c1-9e90-42ae-91da-c7e831b47f5c" name="Changes" comment="add openpyxl to requirements.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/card-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/card-js.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677512037162</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add openpyxl to requirements.txt">
+      <created>1677513614818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677513614818</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -140,6 +147,7 @@
     <MESSAGE value="add requirements.txt" />
     <MESSAGE value="add gunicorn to requirements.txt" />
     <MESSAGE value="remove specific versions of requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove specific versions of requirements.txt" />
+    <MESSAGE value="add openpyxl to requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add openpyxl to requirements.txt" />
   </component>
 </project>
